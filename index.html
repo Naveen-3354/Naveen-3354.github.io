@@ -1,11 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio - [Your Name]</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    Hello world
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="intro">
+            <h1>Hello, I'm Naveen</h1>
+            <p>Full Stack Developer | 2 Years of Experience</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            As a dedicated Full Stack Developer with 2 years of hands-on experience, I have successfully contributed to
+            the development and enhancement of several web applications. My expertise spans both front-end and back-end
+            technologies, including Java, JavaScript, React, Node.js, and Python. I excel in creating dynamic,
+            responsive,
+            and user-centric interfaces while ensuring robust and scalable server-side logic. With a strong foundation
+            in
+            database management, API integration, and version control, I am adept at collaborating with cross-functional
+            teams to deliver high-quality software solutions. My passion for coding, combined with my commitment to
+            staying
+            current with industry trends, drives me to continually improve and innovate in my work.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <h3>Technical Skills</h3>
+            <ul>
+                <li>C</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>HTML, CSS, Tailwind, Bootstrap</li>
+                <li>React</li>
+                <li>Spring, Spring Boot, Security</li>
+                <li>Django</li>
+                <li>Node.js, Express</li>
+            </ul>
+
+            <h3>Databases</h3>
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>PostgreSQL</li>
+            </ul>
+
+            <h3>Tools & Frameworks</h3>
+            <ul>
+                <li>Power BI</li>
+                <li>Microservices in Spring</li>
+                <li>Git, GitHub, Bitbucket</li>
+                <li>TestNG, Maven</li>
+                <li>Redis Cache, Docker, Jenkins</li>
+                <li>Vagrant, Kubernetes, Linux</li>
+                <li>AWS S3 Bucket, Elastic Beanstalk</li>
+                <li>Microservices, Load Balancer</li>
+            </ul>
+
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Effective Communication & Collaboration</li>
+                <li>Innovative Problem-Solving</li>
+                <li>Adaptable Leadership</li>
+                <li>Time and Task Management</li>
+                <li>Empathetic User-Centric Design</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <!-- Project 1: Contact Management and Spam Detection Application -->
+        <div class="project">
+            <h3>Contact Management and Spam Detection Application</h3>
+            <p>Designed and developed a back-end application using Java and Spring Boot to help users manage contacts
+                and combat spam calls. Implemented secure user authentication and contact storage using MySQL, handling
+                over 1000 user accounts in beta testing.</p>
+            <p><strong>Technologies used:</strong> Java, Spring Boot, Spring Security, JWT, MySQL</p>
+        </div>
+
+        <!-- Project 2: Amazon-inspired E-commerce Platform -->
+        <div class="project">
+            <h3>Amazon-inspired E-commerce Platform</h3>
+            <p>Engineered a full-stack e-commerce application mirroring key Amazon functionalities using React for
+                frontend and Spring Boot for backend. Developed responsive UI components with React, implementing
+                features like product listings, search, cart management, and user reviews. Utilized Redux for state
+                management, improving application performance and user experience. Created RESTful APIs with Spring Boot
+                to handle product data, user authentication, and order processing.</p>
+            <p><strong>Technologies used:</strong> Java, Spring Boot, Spring Security, JWT, MySQL, Spring JPA, React.js
+            </p>
+        </div>
+
+        <!-- Project 3: Real-Time Chat Application -->
+        <div class="project">
+            <h3>Real-Time Chat Application</h3>
+            <p>Developed a full-stack, real-time chat application using React for the frontend and Spring Boot for the
+                backend. Implemented WebSocket protocol with STOMP for instant message delivery, reducing latency to
+                under 100ms. Created responsive UI components in React, including chat rooms, user lists, and message
+                input areas. Utilized React Hooks and Context API for efficient state management and component
+                reusability. Designed RESTful APIs with Spring Boot to handle user authentication, chat history, and
+                user presence.</p>
+            <p><strong>Technologies used:</strong> Java, Spring Boot, Spring Security, JWT, MySQL, Spring JPA,
+                WebSocket, React.js</p>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:welbe1709@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Naveen. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
